@@ -10,17 +10,10 @@
 }
 
 
-
-
-
+/* Общий блок для элементов, расположенных по центру */
 .block-center {
   margin: 0 auto;
 }
-
-
-
-
-
 
 
 /*----------header----------*/
@@ -95,6 +88,7 @@
   background-color: #2f80ed;
 }
 
+
 /*----------section (description)----------*/
 
 .two-columns {
@@ -140,6 +134,7 @@
   font-size: 24px;
   font-weight: bold;
 }
+
 
 /*----------section (digits)----------*/
 
@@ -196,12 +191,13 @@
   margin-top: 20px;
 }
 
+
 /*----------section (feynman)----------*/
 
 .feynman {
   min-height: 890px;
   position: relative;
-  padding-top: 100px;
+  overflow: auto;
 }
 
 .feynman_theme_grey {
@@ -213,6 +209,7 @@
 }
 
 .feynman__title {
+  margin-top: 100px;
   width: 648px;
   text-align: center;
   line-height: 1.15em;
@@ -222,7 +219,7 @@
 
 .feynman__subtitle {
   margin-top: 70px;
-  width: 400px;
+  width: max-content;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -239,6 +236,7 @@
   font-weight: normal;
   color: #2f80ed;
 }
+
 
 /*----------section (kaufman)----------*/
 
@@ -288,13 +286,14 @@
   z-index: 2;
 }
 
+
 /*----------footer----------*/
 
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
   color: white;
-  border: 1px solid #1f1f1f;
+  overflow: auto;
 }
 
 .footer__columns {
