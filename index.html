@@ -12,7 +12,10 @@
 
     <!----------header---------->
 
-    <header class="header header_text_black header_theme_grey">
+    <header class="header
+                   header_text_black
+                   header_theme_grey
+                   header_pos_rel">
       <img class="logo logo_place_header"
            src="./images/logo_place_header.svg"
            alt="Логотип Яндекс Практикум">
@@ -65,39 +68,44 @@
       <!----------section (digits)---------->
 
       <section class="digits">
-        <h2 class="section-title digits__section-title section-title_text-size">
+        <h2 class="section-title block-center">
           Цифры и факты
         </h2>
-        <h3 class="section-subtitle digits__section-subtitle section-subtitle_text-size">
+        <h3 class="section-subtitle block-center">
           Про учёбу и мозг
         </h3>
-        <div class="table digits__table">
-          <div class="table__cell">
+
+        <ul class="table block-center">
+
+          <li class="table__cell">
             <h4 class="table__heading">
               86 миллиардов
             </h4>
             <p class="table__text">
               Число нейронов в мозге человека
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+
+          <li class="table__cell">
             <h4 class="table__heading">
               2.1 миллиарда
             </h4>
             <p class="table__text">
               Число нуждающихся в повышении квалификации
-              Всемирный Банк, 2017
+              <span class="table__text-source">Всемирный Банк, 2017</span>
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+
+          <li class="table__cell">
             <h4 class="table__heading">
               1000 терабайт
             </h4>
             <p class="table__text">
               Объём памяти человека
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+
+          <li class="table__cell">
             <h4 class="table__heading">
               500 триллионов
             </h4>
@@ -105,59 +113,166 @@
               Число ответственных за обучение нервных
               синапсов у взрослого человека
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+
+          <li class="table__cell">
             <h4 class="table__heading">
               420 миллионов
             </h4>
             <p class="table__text">
               Число взрослых людей моложе 25 лет,
               не имеющих образования для трудоустройства
-              Всемирный Банк, 2017
+              <span class="table__text-source">Всемирный Банк, 2017</span>
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+
+          <li class="table__cell">
             <h4 class="table__heading">
               17–20 лет
             </h4>
             <p class="table__text">
               Пик обучаемости
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+
+          <li class="table__cell">
             <h4 class="table__heading">
               1885 год
             </h4>
             <p class="table__text">
               Открытие кривой забывания
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+
+          <li class="table__cell">
             <h4 class="table__heading">
               1889 год
             </h4>
             <p class="table__text">
               Открытие условного рефлекса
             </p>
-          </div>
-        </div>
+          </li>
+
+        </ul>
       </section>
 
       <!----------section (feynman)---------->
 
-      <section class="feynman">
-        <h2 class="feynman__title">
+      <section class="feynman feynman_theme_grey">
+        <h2 class="feynman__title block-center">
           Метод Фейнмана
         </h2>
-        <h3 class="feynman__subtitle">
+        <h3 class="feynman__subtitle block-center">
           Выучить и не забыть.
         </h3>
         <a href="#" class="feynman__link">Подробнее →</a>
       </section>
 
-      <!----------section---------->
+      <!----------section (kaufman)---------->
 
-      <section class="kaufman">
+      <section class="kaufman kaufman_theme_dark">
+        <img src="./images/kaufman-triangle.svg"
+             alt="Синий треугольник"
+             class="kaufman__triangle">
+        <h2 class="section-title section-title_theme_dark block-center">
+          Принципы обучения
+        </h2>
+        <h3 class="section-subtitle section-subtitle_theme_dark block-center">
+          от Джоша Кауфмана
+        </h3>
+
+        <ul class="table table_theme_dark block-center">
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              1
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Выберите привлекательный проект.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              2
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Сосредоточьтесь на каком-то одном навыке.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              3
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Определите целевой уровень мастерства.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              4
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Разбейте навык на элементы.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              5
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Приготовьте всё необходимое для занятий.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              6
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Устраните препятствия для занятий.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              7
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Выделите специальное время для занятий.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              8
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Создайте быстрые петли обратной связи.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              9
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
+          </li>
+
+          <li class="table__cell table__cell_theme_dark">
+            <h4 class="table__heading table__heading_theme_dark">
+              10
+            </h4>
+            <p class="table__text text__heading_theme_dark">
+              Уделяйте внимание количеству и скорости.
+            </p>
+          </li>
+        </ul>
       </section>
     </main>
 
