@@ -12,10 +12,7 @@
 
     <!----------header---------->
 
-    <header class="header
-                   header_text_black
-                   header_theme_grey
-                   header_pos_rel">
+    <header class="header">
       <img class="logo logo_place_header"
            src="./images/logo_place_header.svg"
            alt="Логотип Яндекс Практикум">
@@ -35,12 +32,12 @@
 
     <main class="content">
 
-      <!----------section---------->
+      <!----------section (description)---------->
 
       <section class="description">
-        <div class="two-columns description__two-columns">
+        <div class="two-columns">
           <h2 class="two-columns__brief">
-            <a class="two-columns__link">Главные проблемы в обучении</a>
+            <a href="#" class="two-columns__link">Главные проблемы в обучении</a>
           </h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -279,7 +276,52 @@
     <!----------footer---------->
 
     <footer class="footer">
+      <div class="footer__columns">
 
+        <div class="footer__column footer__column_content_copyright">
+          <img class="logo logo_place_footer"
+               src="./images/logo_place_footer.svg"
+               alt="Логотип Яндекс Практикум">
+          <span class="footer__author">
+            &copy 2021. Максим Аржанов
+          </span>
+        </div>
+
+        <div class="footer__column footer__column_content_info">
+          <h2 class="column__heading">
+            О Практикуме
+          </h2>
+          <div class="column__links">
+            <a href="#" class="column__column-link">Главная</a>
+            <a href="#" class="column__column-link">Концепция</a>
+            <a href="#" class="column__column-link">Наставники</a>
+          </div>
+        </div>
+
+        <div class="footer__column footer__column_content_social">
+          <h2 class="column__heading">
+            Соцсети
+          </h2>
+          <div class="column__links">
+            <a href="#" class="column__column-link">
+              <img class="column__social-icon"
+              src="./images/facebook_color_white.svg"
+              alt="Иконка Facebook">Facebook
+            </a>
+            <a href="#" class="column__column-link">
+              <img class="column__social-icon"
+              src="./images/vk_color_white.svg"
+              alt="Иконка ВКонтакте">ВКонтакте
+            </a>
+            <a href="#" class="column__column-link">
+              <img class="column__social-icon"
+              src="./images/instagram_color_white.svg"
+              alt="Иконка Instagram">Instagram
+            </a>
+          </div>
+        </div>
+
+      </div>
     </footer>
   </div>
 </body>

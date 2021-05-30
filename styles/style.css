@@ -26,23 +26,13 @@
 /*----------header----------*/
 
 .header {
+  display: flex;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
-  display: flex;
   align-items: center;
-}
-
-.header_pos_rel {
-  position: relative;
-}
-
-.header_theme_grey {
   background-color: #f2f2f2;
-}
-
-.header_text_black {
   color:#000;
 }
 
@@ -96,7 +86,6 @@
   height: 608px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -113,9 +102,6 @@
   justify-content: space-between;
   min-width: 784px;
   width: 80%;
-}
-
-.description__two-columns {
   margin: auto;
   margin-top: 100px;
 }
@@ -300,4 +286,73 @@
   margin-right: 0;
   margin-top: 80px;
   z-index: 2;
+}
+
+/*----------footer----------*/
+
+.footer {
+  min-height: 350px;
+  background-color: #1f1f1f;
+  color: white;
+  border: 1px solid #1f1f1f;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  min-height: 250px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.column__heading {
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.column__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.column__column-link {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.column__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
