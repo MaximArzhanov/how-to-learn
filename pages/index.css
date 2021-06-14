@@ -9,12 +9,16 @@
 @import url("../blocks/header/__main-illustration/header__main-illustration.css");
 @import url("../blocks/header/__square-pic/header__square-pic.css");
 
+/*  Блок rotation */
 @import url("../blocks/rotation/rotation.css");
 
 /*  Блок logo */
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_place/logo_place_header.css");
 @import url("../blocks/logo/_place/logo_place_footer.css");
+
+/*  Блок description  */
+@import url("../blocks/description/description.css");
 
 /*  Блок two-columns  */
 @import url("../blocks/two-columns/two-columns.css");
@@ -46,6 +50,9 @@
 @import url("../blocks/section-subtitle/section-subtitle.css");
 @import url("../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css");
 
+/*  Блок oakly  */
+@import url("../blocks/oakly/oakly.css");
+
 /* Блок table */
 @import url("../blocks/table/table.css");
 @import url("../blocks/table/_theme/table_theme_dark.css");
@@ -60,6 +67,9 @@
 @import url("../blocks/feynman/__link/feynman__link.css");
 @import url("../blocks/feynman/__subtitle/feynman__subtitle.css");
 @import url("../blocks/feynman/__title/feynman__title.css");
+
+/* Блок digits */
+@import url("../blocks/digits/digits.css");
 
 /* Блок kaufman */
 @import url("../blocks/kaufman/kaufman.css");
