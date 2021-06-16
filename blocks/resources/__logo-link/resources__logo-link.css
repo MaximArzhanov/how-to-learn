@@ -1,0 +1,11 @@
+.resources__logo-link {
+  margin: auto;
+  padding: 0;
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.resources__logo-link:hover {
+  opacity: 60%;
+}

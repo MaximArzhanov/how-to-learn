@@ -1,0 +1,8 @@
+.footer__logo-link {
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.footer__logo-link:hover {
+  opacity: 60%;
+}

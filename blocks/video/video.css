@@ -1,5 +1,5 @@
 .video {
-  height: 440px;
-  overflow: visible;
-  padding-top: 100px;
+  position: relative;
+  top: 60px;
+  padding-top: 40px;
 }
